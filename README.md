@@ -1,1 +1,1 @@
-# learnPortugol
+# portugol-grammar
