@@ -29,7 +29,7 @@
     },
     {
       "name": "keyword.other.portugol",
-      "match": "\\b(inclua|biblioteca|funcao|programa)\\b"
+      "match": "\\b(inclua|biblioteca|programa)\\b"
     },
     {
       "name": "keyword.operator.new.portugol",
@@ -56,7 +56,7 @@
       "name": "variable.language.portugol"
     },
     {
-      "begin": "(escreva|escreval|leia)\\s*(\\\/\\*.*\\*\\\/)?\\s*(\\w+)\\s*\\(",
+      "begin": "(funcao)\\s*(\\\/\\*.*\\*\\\/)?\\s*(\\w+)\\s*\\(",
       "beginCaptures": {
         "1": {
           "name": "support.type.portugol"
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "begin": "\\b(var)\\b\\s*",
+      "begin": "\\b(variavel)\\b\\s*",
       "beginCaptures": {
         "1": {
           "name": "storage.type.portugol"
@@ -135,7 +135,7 @@
       }
     },
     {
-      "match": "(extends|class)\\s*(\\w*)",
+      "match": "(escreva|leia)\\s*(\\w*)",
       "captures": {
         "1": {
           "name": "keyword.other.portugol"
